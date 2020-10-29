@@ -1,0 +1,215 @@
+html {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    right:50%;
+    background:
+    radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.15) 30%, rgba(255,255,255,.3) 32%, rgba(255,255,255,0) 33%) 0 0,
+    radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.1) 11%, rgba(255,255,255,.3) 13%, rgba(255,255,255,0) 14%) 0 0,
+    radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 17%, rgba(255,255,255,.43) 19%, rgba(255,255,255,0) 20%) 0 110px,
+    radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 11%, rgba(255,255,255,.4) 13%, rgba(255,255,255,0) 14%) -130px -170px,
+    radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 11%, rgba(255,255,255,.4) 13%, rgba(255,255,255,0) 14%) 130px 370px,
+    radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.1) 11%, rgba(255,255,255,.2) 13%, rgba(255,255,255,0) 14%) 0 0;
+    /*linear-gradient(45deg, #343702 0%, #184500 20%, #187546 30%, #006782 40%, #0b1284 50%, #760ea1 60%, #83096e 70%, #840b2a 80%, #b13e12 90%, #e27412 100%);*/
+    background-size: 470px 470px, 970px 970px, 410px 410px, 610px 610px, 530px 530px, 730px 730px, 100% 100%;
+    background-color:lightgrey;
+}
+
+
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+.patients-container {
+    margin-top: 220px;
+
+     
+
+    top: 10%;
+    width: 350px;
+
+}
+
+
+.selectedpatient{
+    width: max-content;
+    right: 40px;
+position: relative
+}
+
+.patients-container ,
+.selectedpatient{
+   /* border: white 1px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;*/
+    /*right:50%;*/
+    margin: auto;
+ 
+height: 70px;
+
+    top:40%;
+    /*position: fixed;
+    float: right;
+left: auto; */
+   
+}
+
+.patientdetails{
+ float: right;
+}
+
+input  {
+    border-radius: 15px;
+    text-align: center;
+    height: 30px;
+   padding: 1px 2px;
+   width: 350px;
+   margin: 7px;
+    
+    position: relative;
+
+}
+
+input[type="checkbox"]{
+width: 20px;
+height: 20px;
+  margin: 7px;
+}
+ /*.form-text{
+    border-radius: 15px;
+     text-align: center;
+     height: 30px;
+    padding: 1px 2px;
+    width: 350px;
+    margin: 7px;
+    float: right;
+}*/
+
+.form-label{
+
+    margin: 7px;
+    float: left;
+}
+
+.submit{
+    /*position: absolute;*/
+    background-color: #0066ff;
+    color: white;
+    /* right: 0px;*/
+    width: 130px;
+    float: right;
+    
+}
+.search-component {
+    position: relative;
+}
+
+.results {
+    position: absolute;
+    top: 55px;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.result-item,
+.next-item {
+    padding: 10px;
+    transition: all 0.1s ease-in-out;
+    margin-bottom: 2px;
+    background: lighten(white, 10%);
+    text-align: center;
+    width: 350px;
+    &.active {
+        background: red;
+    }
+}
+
+.next-item {
+    cursor: pointer;
+    background: lighten(yellow, 10%);
+}
+
+.footer{
+    bottom: 0px;
+    position: absolute;
+}
+
+.userlinks{
+    margin:   15px;
+    padding:   10px;
+    top: 2px;
+position: fixed;
+right: 5px;
+
+}
+
+.lik{
+    margin:   15px;
+    color: red;
+}
+
+.link {
+
+    color: #ffc323;
+
+}
+
+.link:hover{
+    color: white;
+}
+
+
+.hgdpr{
+
+    width: 100%;
+    height: 166px;
+    background-color: #1e4e9c;
+}
+
+.yellowbar{
+    position: absolute;
+     top: 158px;
+    height: 10px;
+    width: 100%;
+    background-color: #ffc323;
+}
+
+.logo{
+    margin: 8px;
+    padding: 8px;
+    background-color: black;
+    top: 7px;
+    left: 7px;
+    width: 120px;
+    position: absolute;
+
+}
+
+.gdpr{
+    position: absolute;
+    margin: auto;
+    left: 20%
+
+}
+
+.checkboxlabel{
+ margin: 10px;
+}
+
+.container{
+    padding-top: 30px;
+}
+
+.search{
+    bottom: 50%;
+position: fixed;
+/*position: absolute;*/
+}
