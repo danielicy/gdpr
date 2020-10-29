@@ -1,0 +1,10 @@
+{
+    "name":"GDPR Executor-  API -Development",
+    "sql":{ 
+        "user":"sa",       
+        "server": "10.201.8.4", 
+       "database":"Danieli.CMS"  
+    },
+    "emr":"Danieli.EMR",
+    "uploadspath":"/Users/ideo/Documents/test/"
+}

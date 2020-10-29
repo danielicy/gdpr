@@ -1,0 +1,49 @@
+{
+  "name": "analyzer.map.service",
+  "version": "1.0.0",
+  "description": "restful service. serves geoanalysis data based on user queries",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "run": "nodemon api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://DanieliCy_@bitbucket.org/DanieliCy_/analyzer.map.service.git"
+  },
+  "keywords": [
+    
+  ],
+  "author": "Danieli Cywyak",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/DanieliCy_/analyzer.map.service#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "config": "^3.3.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "errorhandler": "1.5.1",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-jwt": "^6.0.0",
+    "express-session": "^1.17.1",
+    "formidable": "^1.2.2",
+    "helmet": "^4.1.1",
+    "joi": "^17.2.1",
+    "mssql": "^6.2.1",
+    "multer": "^1.4.2",
+    "mysql2": "^2.2.5",
+    "node-geocoder": "^3.27.0",
+    "parse-address-string": "0.0.3",
+    "passport": "0.4.1",
+    "rimraf": "^3.0.2",
+    "sequelize": "^6.3.5",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "jest": "^26.5.3",
+    "jshint": "^2.12.0"
+  }
+}

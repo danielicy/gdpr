@@ -1,0 +1,10 @@
+{
+    "name":"GDPR Executor- API -Production ",
+    "sql":{ 
+        "user":"sa",       
+        "server": "10.201.8.4", 
+       "database":"xTend.CMS"         
+    },
+    "emr":"xTend.EMR",
+    "uploadspath":"C:\\inetpub\\wwwroot\\emradmin.xtendscientific.com\\fileUploads\\"
+}
